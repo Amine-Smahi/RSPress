@@ -1,10 +1,3 @@
-/*
-* Template Name: PRO Card - Material Resume / CV / vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.0
-*/
-
 /* =============================================================================
 
 1. Fonts
@@ -626,7 +619,7 @@ body > footer .copyrights {
 
 .site-title-block {
   position: relative;
-  float: left;
+  float: right;
   z-index: 1;
   text-align: center;
 }
@@ -656,7 +649,7 @@ body > footer .copyrights {
 
 /* Main menu */
 .site-nav {
-  float: right;
+  float: left;
 }
 .site-main-menu {
   display: block;
@@ -883,7 +876,7 @@ body > footer .copyrights {
 
 .start-page-content .page-header .title-block .sp-subtitle {
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0;
 }
 
@@ -945,7 +938,7 @@ body > footer .copyrights {
 
 .info-list li {
   margin: 6px 0;
-  text-align: left;
+  text-align: right;
 }
 
 .info-list li .title {
@@ -1050,8 +1043,9 @@ body > footer .copyrights {
 }
 
 .skills-info h4 { 
+   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color: #fff;
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.1em;
   position: relative; 
   margin: 0 0 5px;
@@ -1086,24 +1080,24 @@ body > footer .copyrights {
 }
 
 /*Skill 1*/
-.skill-percentage.skill-1 {
+.skill-percentage.skill-excelent {
   width: 88%;
 }
 /*Skill 2*/
-.skill-percentage.skill-2 {
-  width: 75%;
+.skill-percentage.skill-good {
+  width: 70%;
 }
 /*Skill 3*/
-.skill-percentage.skill-3 {
+.skill-percentage.skill-medium {
   width: 60%;
 }
 /*Skill 4*/
-.skill-percentage.skill-4 {
-  width: 95%;
+.skill-percentage.skill-notbad {
+  width: 50%;
 }
 /*Skill 5*/
-.skill-percentage.skill-5 {
-  width: 75%;
+.skill-percentage.skill-very bad {
+  width: 40%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
