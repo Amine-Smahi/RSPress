@@ -155,7 +155,7 @@ img {
   padding: 10px 0 10px 0;
   width: 100%;
   background: transparent;
-  text-align: left;
+  text-align: right;
   color: inherit;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -229,6 +229,7 @@ textarea.form-control, textarea.form-control:focus {
 /* /Placeholders */
 
 .form-group .help-block {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   position: absolute;
   display: inline-block;
   padding: 0px 5px;
@@ -237,6 +238,7 @@ textarea.form-control, textarea.form-control:focus {
   margin: -2px 0 0 10px;
   color: #ff4c4c;
   background: #383E45;
+  font-size: 16px;
 }
 
 .form-group .help-block:after {
@@ -271,7 +273,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 0;
   font-size: 18px;
   width: 40px;
-  text-align: center;
+  text-align: right;
   line-height: 42px;
   height: 100%;
   color: #bdbdbd;
@@ -1043,7 +1045,7 @@ body > footer .copyrights {
 }
 
 .skills-info h4 { 
-   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color: #fff;
   font-size: 0.9em;
   line-height: 1.1em;
@@ -1735,7 +1737,7 @@ body > footer .copyrights {
 .contact-info-block {
     
   position: relative;
-  text-align: left;
+  text-align: right;
   width: 100%;
   display: block;
   margin: 0;
@@ -1758,15 +1760,19 @@ body > footer .copyrights {
 }
 
 .ci-text {
-  position: relative;
-  padding-left: 50px;
+  font-size: 16px;
+  padding-right: 50px;
 }
+
 
 .contact-info-block h5 {
+    font-size: 16px;
     color: #fff;
-  margin: 5px 0;
+  margin: 10px 0;
+} 
+.en{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
-
 .contact-info-block i {
   position: relative;
   font-size: 18px;
@@ -1782,70 +1788,12 @@ body > footer .copyrights {
 }
 /* / Contact form */
 
-/* Google Map */
-.map {
-  width: 100%;
-  height: 180px;
-  margin: 15px 0 30px;
-}
-/* / Google Map */
 
 
 /* ============================================================================= 
 8. Sliders
 ============================================================================= */
-/* Testimonials Carousel */
-.testimonials.owl-carousel .owl-nav {
-  position: relative;
-  text-align: center;
-  margin-top: 15px;
-}
 
-.testimonials.owl-carousel .owl-nav .owl-prev {
-  margin-right: 3px;
-}
-
-.testimonials.owl-carousel .owl-nav .owl-prev,
-.testimonials.owl-carousel .owl-nav .owl-next {
-  display: inline-block;
-  color: #555;
-  background-color: #383E45;
-  border-radius: 3px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.testimonials.owl-carousel .owl-nav .owl-prev:hover,
-.testimonials.owl-carousel .owl-nav .owl-next:hover {
-  color: #282E33;
-  background-color: #2eca7f;
-}
-
-.testimonials.owl-carousel .owl-nav .owl-prev:before,
-.testimonials.owl-carousel .owl-nav .owl-next:before {
-  position: relative;
-  margin: 2px;
-  width: 22px;
-  height: 22px;
-  font-family: 'Droid Arabic Kufi', serif;
-  font-size: 21px;
-  line-height: 22px;
-  text-align: center;
-  display: block;
-  cursor: pointer;
-}
-
-.testimonials.owl-carousel .owl-nav .owl-prev:before {
-  content: "\f104";
-}
-
-.testimonials.owl-carousel .owl-nav .owl-next:before {
-  content: "\f105";
-}
-/* /Testimonials Carousel */
 
 /* Portfolio Carousel */
 .portfolio-page-carousel {
