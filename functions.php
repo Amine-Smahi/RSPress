@@ -59,4 +59,9 @@ function remove_yoast_license_nag_from_admin_page() {
 }
 
 add_action('admin_head', 'remove_yoast_license_nag_from_admin_page');
+add_filter('wpseo_locale', 'override_og_locale');
+function override_og_locale($locale)
+{
+return "ar_dz";
+}
 ?>

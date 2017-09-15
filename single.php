@@ -1,6 +1,81 @@
-<?php get_header(); ?>
+<?php
+$homeurl = "http://localhost/amine-smahi/";
+?>
+<!DOCTYPE html>
+<html dir="rtl" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+     <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
+    <?php wp_head(); ?>
+    <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/3905e689/styles-2.css" type="text/css">
+       <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
 
-     
+  <body class="material-template" data-js="open">
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+      <!-- Header -->
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="site-title-block mobile-hidden">
+            <div class="site-title"><span> أمين </span> سماحي </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="site-nav">
+            <!-- Main menu -->
+            <ul id="nav" class="site-main-menu">
+            
+           
+             
+               <li>
+                <a class="pt-trigger" href="../index.php#contact"> إتصل بي </a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="../index.php#blog"> المدونة </a>
+              </li>
+                <li>
+                <a class="pt-trigger" href="../index.php#portfolio"> المشاريع </a>
+              </li>
+                 <li>
+                <a class="pt-trigger" href="../index.php#services"> الخدمات </a>
+              </li>
+                 <li>
+                <a class="pt-trigger" href="../index.php#resume"> السيرة الذاتية </a>
+              </li>
+                  <li>
+                <a class="pt-trigger" href="../index.php#home"> الرئيسية </a>
+              </li>
+            </ul>
+            <!-- /Main menu -->
+          </div>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <!-- /Header -->
+         <!-- Mobile Header -->
+      <div class="mobile-header mobile-visible">
+        <div class="mobile-logo-container">
+          <div class="mobile-site-title"> أمين سماحي </div>
+        </div>
+
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Mobile Header -->
 
 <ul id="social_side_links">
 	<li><a style="background-color: #3c5a96;" href="https://www.facebook.com/sharer.php?u=<?php the_permalink();?>&amp;t=<?php the_title(); ?>" target="_blank"><img src="<?php echo esc_url( home_url( '/' ) ); ?>images/social/fb.png" alt="" /></a></li>

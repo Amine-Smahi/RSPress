@@ -41,7 +41,7 @@
                      </div>
                      <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="photo">
-                           <img src="images/photo.png" alt="">
+                           <img src="<?php echo $homeurl ?>images/photo.png" alt="">
                         </div>
                      </div>
                   </div>

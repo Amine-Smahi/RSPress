@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-     <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
+     <title>أمين سماحي - مطور مايروسوفت دوت نت</title>
     <?php wp_head(); ?>
     <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
     <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/3905e689/styles-2.css" type="text/css">
