@@ -10,7 +10,7 @@ $homeurl = "http://localhost/amine-smahi/";
      <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <?php wp_head(); ?>
     <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/3905e689/styles-2.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/a0f933d1/styles-2.css" type="text/css">
        <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
@@ -84,7 +84,26 @@ $homeurl = "http://localhost/amine-smahi/";
     <li><a style="background-color: #DC4A38;" href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,
   '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank"><img src="<?php echo esc_url( home_url( '/' ) ); ?>images/social/gplus.png" alt="" /></a></li>
 </ul>
-
+<div class="popup">
+	  <form id="contact-form" method="post" action="#">
+              
+                           <div class="controls">
+                               <i id="icon-round" class="fa fa-fw fa fa-envelope"></i>
+                               <p class="small-text"> إشترك حتى يصلك كل جديد من مقالات و نصائح و تستفيد من الدورات القادمة في مجال البرمجة و التطوير </p>
+                              <div  class="form-group form-group-with-icon">
+                                 <i class="fa fa-envelope"></i>
+                                 <label> الإيمايل </label>
+                                 <input  id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email is required.">
+                                 <div class="form-control-border"></div>
+                                 <div class="help-block with-errors"></div>
+                              </div>
+                            
+                             
+                              <input style="margin-bottom:8px;" type="submit" class="button btn-send" value=" إرسل الرسالة ">
+                               <button name="close"> ربما لاحقا </button>
+                           </div>
+                        </form>
+</div>
 
       <!-- Main Content -->
       <div id="main" class="site-main">
@@ -114,26 +133,7 @@ $homeurl = "http://localhost/amine-smahi/";
                      <div class="container">
 </div>
 
-<div class="popup">
-	  <form id="contact-form" method="post" action="#">
-              
-                           <div class="controls">
-                               <i id="icon-round" class="fa fa-fw fa fa-envelope"></i>
-                               <p class="small-text"> إشترك حتى يصلك كل جديد من مقالات و نصائح و تستفيد من الدورات القادمة في مجال البرمجة و التطوير </p>
-                              <div  class="form-group form-group-with-icon">
-                                 <i class="fa fa-envelope"></i>
-                                 <label> الإيمايل </label>
-                                 <input  id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email is required.">
-                                 <div class="form-control-border"></div>
-                                 <div class="help-block with-errors"></div>
-                              </div>
-                            
-                             
-                              <input style="margin-bottom:8px;" type="submit" class="button btn-send" value=" إرسل الرسالة ">
-                               <button name="close"> ربما لاحقا </button>
-                           </div>
-                        </form>
-</div>
+
                 <p><?php the_content('Read More'); ?></p>
 
                
