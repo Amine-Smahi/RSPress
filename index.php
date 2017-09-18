@@ -13,23 +13,6 @@
                      <div class="col-sm-8 col-md-8 col-lg-8">
                         <div class="title-block">
                            <h1> أمين سماحي </h1>
-                           <div class="owl-carousel text-rotation">
-                              <div class="item">
-                                 <div class="sp-subtitle"> مبرمج </div>
-                              </div>
-                              <div class="item">
-                                 <div class="sp-subtitle">  مصمم </div>
-                              </div>
-                              <div class="item">
-                                 <div class="sp-subtitle">  مدون </div>
-                              </div>
-                              <div class="item">
-                                 <div class="sp-subtitle">  معلم </div>
-                              </div>
-                              <div class="item">
-                                 <div class="sp-subtitle">  كاتب </div>
-                              </div>
-                           </div>
                         </div>
                         <div class="social-links">
                            <a href="#"><i class="fa fa-twitter"></i></a>
@@ -39,6 +22,7 @@
                         </div>
                      </div>
                      <div class="col-sm-4 col-md-4 col-lg-4">
+                      <br>
                         <div class="photo">
                            <img src="<?php echo $homeurl ?>images/photo.png" alt="">
                         </div>
