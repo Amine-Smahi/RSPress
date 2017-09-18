@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <!-- Main Content -->
 <div id="main" class="site-main">
    <!-- Page changer wrapper -->
