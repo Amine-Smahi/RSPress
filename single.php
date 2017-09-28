@@ -10,7 +10,7 @@
       <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
       <?php wp_head(); ?>
       <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/a0f933d1/styles-2.css" type="text/css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/4f1974d7/styles-2.css" type="text/css">
       <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    </head>
