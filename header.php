@@ -7,9 +7,11 @@
       <title>أمين سماحي - مطور مايروسوفت دوت نت</title>
       <?php wp_head(); ?>
       <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/4f1974d7/styles-2.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/765d7683/styles-2.css" type="text/css">
       <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       
    </head>
    <body class="material-template" data-js="open">
       <!-- Loading animation -->
@@ -66,3 +68,4 @@
          </a>
       </div>
       <!-- /Mobile Header -->
+          <button style="pading-top:5px;" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-hand-o-up fa-2x" aria-hidden="true"></i></button>

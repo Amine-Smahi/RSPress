@@ -36,7 +36,7 @@
                            <li><span class="title"> الإسم الكامل :   </span><span class="value">  سماحي محمد أمين </span></li>
                            <li><span class="title"> العمر : </span> <span class="value"> 21 سنة </span></li>
                            <li><span class="title"> مكان الإقامة :  </span><span class="value"> وهران, الجزائر </span></li>
-                           <li><span class="title"> الإيمايل :  </span> <span class="value"><a href="mailto:email@example.com"> Mohammed.Amine.Smahi@gmail.com </a></span></li>
+                           <li><span class="title"> الإيمايل :  </span> <span class="value"><a class="en" href="mailto:email@example.com"> Mohammed.Amine.Smahi@gmail.com </a></span></li>
                            <li><span class="title"> الهاتف : </span><span class="value">55 46 43 553 213+</span></li>
                            <li><span class="title"> مستقل :  </span><span class="value available"> متوفر </span></li>
                         </ul>
@@ -279,7 +279,7 @@
                               <div class="service-image">
                                  <img src="images/service/photography_icon.png" alt="Photography" class="mCS_img_loaded">
                               </div>
-                              <h4> برمجة و تصميم المواقع  </h4>
+                              <h4> برمجة و تطوير المواقع  </h4>
                               <p>أبرمج و أطور حلول برمجية لإحتياجاتك أو إحتياجات شركتك أو حتى لخدمة زوارك أو مجتمعك و ذلك بأفضل التقنيات و اللغات البرمجية المناسبة لتصل الفكرة لزوارك بأفضل أداء ممكن. </p>
                            </div>
                         </div>
@@ -434,7 +434,7 @@
                               <i class="fa fa-envelope"></i>
                            </div>
                            <div class="ci-text">
-                              <h5 class="en">Mohammed.Amine.Smahi@gmail.com</h5>
+                              <h5 class="en">Mohammed.Amine.Smahi@ gmail.com</h5>
                            </div>
                         </div>
                         <div class="contact-info-block">

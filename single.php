@@ -1,6 +1,3 @@
-<?php
-   $homeurl = "http://localhost/amine-smahi/";
-   ?>
 <!DOCTYPE html>
 <html dir="rtl" class="no-js">
    <head>
@@ -10,7 +7,8 @@
       <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
       <?php wp_head(); ?>
       <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/4f1974d7/styles-2.css" type="text/css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/765d7683/styles-2.css" type="text/css">
       <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    </head>
@@ -119,7 +117,24 @@
                                     ?></span>
                         </div>
                         <div class="container"></div>
-                        <p><?php the_content('Read More'); ?></p>
+                        <p><?php the_content('Read More'); ?></p><br>
+                         <p>
+
+<div id="share">
+  <!-- facebook -->
+  <a class="facebook" href="https://www.facebook.com/sharer.php?u=<?php the_permalink();?>&amp;t=<?php the_title(); ?>" target="blank"><i class="fa fa-facebook"></i></a>
+
+  <!-- twitter -->
+  <a class="twitter" href="http://twitter.com/share?url=<?php the_permalink(); ?>&text=<?php the_title(); ?>" target="blank"><i class="fa fa-twitter"></i></a>
+
+  <!-- google plus -->
+  <a class="googleplus" href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,
+               '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="blank"><i class="fa fa-google-plus"></i></a>
+
+  <!-- linkedin -->
+  <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;title=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>" target="blank"><i class="fa fa-linkedin"></i></a>
+</div>
+                         </p>
                         <div class="entry-meta entry-tags-share">
                            <ul class="tags">
                               <?php
@@ -195,4 +210,5 @@
       <!-- End of Single Page Content -->
       </div>
       <!-- /Main Content -->
+<div id='fixedban' style='width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:999;-webkit-transform:translateZ(0);'> <div><a id='close-fixedban' onclick='document.getElementById(&apos;fixedban&apos;).style.display = &apos;none&apos;;' style='cursor:pointer;'><img alt='close' src='http://1.bp.blogspot.com/-_A83iDM6JYc/VhtxROLILrI/AAAAAAAADK4/aM4ikIA6aqI/s1600/btn_close.gif' style='vertical-align:middle;' title='close button'/></a></div> <div style='text-align:center;display:block;max-width:728px;height:auto;overflow:hidden;margin:auto'> <a href='رابط الموقع هنا' target='_blank' title='Ads Banner'><img alt='Ads banner' src='http://amine-smahi.my-style.in/images/ads_banner.png' style='max-width:100%;height:auto;vertical-align:middle;'/></a> </div> </div>
       <?php get_footer(); ?>
