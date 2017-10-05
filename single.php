@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html dir="rtl" class="no-js">
+<html dir="rtl" class="no-js" lang="ar">
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       <title><?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
       <?php wp_head(); ?>
+       <meta name="author" content="أمين سماحي" />
       <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/765d7683/styles-2.css" type="text/css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/9821010f/styles-2.css" type="text/css">
       <link rel="prefetch" type="text/css" onload="this.rel='stylesheet'" href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    </head>
@@ -108,12 +109,7 @@
                         </h1>
                         <div class="entry-meta">
                            <span class="date"><i class="fa fa-fw fa-clock-o"></i>  تاريخ صدور المقال <?php
-                              $postdate_d = get_the_date('d'); 
-                              $postdate_d2 = get_the_date('D');
-                              $postdate_m = get_the_date('m');
-                              $postdate_y = get_the_date('Y');                                
-                              
-                              echo single_post_arabic_date($postdate_d,$postdate_d2, $postdate_m, $postdate_y);
+                              echo ArabicDate();
                                     ?></span>
                         </div>
                         <div class="container"></div>

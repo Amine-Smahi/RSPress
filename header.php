@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html dir="rtl" class="no-js">
+<html dir="rtl" class="no-js" lang="ar">
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
       <title>أمين سماحي - مطور مايروسوفت دوت نت</title>
+      <meta name="title" content="أمين سماحي - مطور مايروسوفت دوت نت" />
       <?php wp_head(); ?>
+       <meta name="author" content="أمين سماحي" />
+       <meta name="owner" content="أمين سماحي" />
+       <meta name="robots" content="NOODP">
       <link rel="shortcut icon" href="<?php echo esc_url( home_url( '/' ) ); ?>images/favicon.png">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/765d7683/styles-2.css" type="text/css">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/Amine-Smahi/CDN/9821010f/styles-2.css" type="text/css">
        <link rel="prefetch" type="text/css" onload="this.rel='stylesheet'" href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
        

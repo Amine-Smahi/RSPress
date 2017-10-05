@@ -9,22 +9,22 @@
          <section class="pt-page" data-id="home">
             <div class="section-inner start-page-content">
                <div class="page-header">
-                  <div class="row">
+                  <div  class="row">
                      <div class="col-sm-8 col-md-8 col-lg-8">
                         <div class="title-block">
                            <h1> أمين سماحي </h1>
                         </div>
                         <div class="social-links">
-                           <a href="#"><i class="fa fa-twitter"></i></a>
-                           <a href="#"><i class="fa fa-facebook"></i></a>
-                           <a href="#"><i class="fa fa-google"></i></a>
-                           <a href="#"><i class="fa fa-linkedin"></i></a>
+                           <a href="https://twitter.com/Amine_Smahi_dev" rel="nofollow"  target="_blank" ><i class="fa fa-twitter"></i></a>
+                           <a href="https://facebook.com/amine.developer"rel="nofollow"  target="_blank"><i class="fa fa-facebook"></i></a>
+                           <a href="https://plus.google.com/u/0/101953654682083217609"rel="nofollow"  target="_blank"><i class="fa fa-google"></i></a>
+                           <a href="https://linkedin.com/in/amine-smahi"rel="nofollow"  target="_blank"><i class="fa fa-linkedin"></i></a>
                         </div>
                      </div>
                      <div class="col-sm-4 col-md-4 col-lg-4">
                       <br>
                         <div class="photo">
-                           <img src="<?php echo $homeurl ?>images/photo.png" alt="">
+                           <img src="<?php echo $homeurl ?>images/photo.png" alt="Amine Smahi Profile picture logo">
                         </div>
                      </div>
                   </div>
@@ -47,7 +47,7 @@
                               <h3> نبذة <span> عني </span></h3>
                            </div>
                            <p>
-                              مبرمج و مطور مايكروسفت دوت نت متحفز جدا وكذا مصمم جرافيك مع خبرة أكتر من 3 سنوات في بتطوير و تصميم المواقع بالإيضافة إلى إستخدام مختلف التقنيات  كالOOP و الMVC و حتى MVVM بما في ذلك تكنولوجيات مايكروسوفت.
+                              مبرمج و مطور مايكروسفت دوت نت متحفز جدا وكذا مصمم جرافيك مع خبرة أكتر من 3 سنوات في بتطوير و تصميم المواقع بالإيضافة إلى إستخدام مختلف التقنيات  كال OOP و ال MVC و حتى MVVM بما في ذلك تكنولوجيات مايكروسوفت.
                               مدرس و مدرب في مجال البرمجة في عدة ملتقيات و تدريبات , قمت بتطوير العديد من المواقع و مختلف تطبيقات سطح مكتب في أستوديو JetLight المتعدد المنصات.
                            </p>
                         </div>
@@ -103,7 +103,7 @@
                                  <h4 class="item-title"> مطور ويب و شبكات </h4>
                                  <span class="item-period">2016</span>
                                  <span class="item-small"> بمدرسة بي سمارت </span>
-                                 <p class="item-description"> بعد تعلم أساسيات تصميم المواقع بالHTMLوCSS و كذلك بإستخدام تكنولوجيا dreamweaver ، درسنا اساسيات ال PHP وال SQL مع MYSQL . بعدها أساسيات الشبكات و معالجتها. </p>
+                                 <p class="item-description"> بعد تعلم أساسيات تصميم المواقع بالHTMLوCSS و كذلك بإستخدام تكنولوجيا Dreamweaver ، درسنا اساسيات ال PHP وال SQL مع MYSQL . بعدها أساسيات الشبكات و معالجتها. </p>
                               </div>
                               <!-- / Education 4 -->
                            </div>
@@ -128,7 +128,7 @@
                                  <h4 class="item-title"> مطور ويب </h4>
                                  <span class="item-period"> من 2017 إلى الآن  </span>
                                  <span class="item-small"> جامعة أحمد بن بن بلة بوهران </span>
-                                 <p class="item-description"> منذ ال 2017 و يتم تدريسنا و تدريبينا على أن نصبح FullSt ack lStack  حيت بدأ الأمربالأساسيات (html و css و حتى javascript ) إنتقالا إلى php و sql و إستخدام mysql إلى بناء مشاريع واقعية . </p>
+                                 <p class="item-description"> منذ ال 2017 و يتم تدريسنا و تدريبينا على أن نصبح مطورين FullStack حيت بدأ الأمر بالأساسيات (html و css و حتى javascript ) إنتقالا إلى php و sql و إستخدام mysql إلى بناء مشاريع واقعية . </p>
                               </div>
                               <!-- / Experience 2 -->
                               <!-- Experience 3 -->
@@ -264,7 +264,7 @@
                            <div class="service-info">
                               <!--<i class="service-icon fa fa-shopping-cart"></i>-->
                               <div class="service-image">
-                                 <img src="images/service/web_design_icon.png" alt="Responsive Design" class="mCS_img_loaded">
+                                 <img src="images/service/web_design_icon.png" alt="Responsive Design Seo Amine Smahi" class="mCS_img_loaded">
                               </div>
                               <h4> تصميم المواقع </h4>
                               <p>
@@ -277,7 +277,7 @@
                         <div class="service-block">
                            <div class="service-info">
                               <div class="service-image">
-                                 <img src="images/service/photography_icon.png" alt="Photography" class="mCS_img_loaded">
+                                 <img src="images/service/photography_icon.png" alt="Web Developer Amine Smahi" class="mCS_img_loaded">
                               </div>
                               <h4> برمجة و تطوير المواقع  </h4>
                               <p>أبرمج و أطور حلول برمجية لإحتياجاتك أو إحتياجات شركتك أو حتى لخدمة زوارك أو مجتمعك و ذلك بأفضل التقنيات و اللغات البرمجية المناسبة لتصل الفكرة لزوارك بأفضل أداء ممكن. </p>
@@ -288,7 +288,7 @@
                         <div class="service-block">
                            <div class="service-info">
                               <div class="service-image">
-                                 <img src="images/service/creativity_icon.png" alt="Creativity" class="mCS_img_loaded">
+                                 <img src="images/service/creativity_icon.png" alt="Creative Software developer Amine Smahi" class="mCS_img_loaded">
                               </div>
                               <h4> تطوير برامج سطح مكتب </h4>
                               <p> هل تحتاج او تحتاج شركتك لبرامج لادارة محتواها ؟ هل تحتاج إلى حل للطرق التقليدية التي تستخدمها , هل مللت من الحسابات و الإدارة الصعبة ؟ قل وداعا لهذا الأمر , فنحن نبتكر لك هذا الحل ليكون عملك سهلا و منظما  </p>
@@ -299,7 +299,7 @@
                         <div class="service-block">
                            <div class="service-info">
                               <div class="service-image">
-                                 <img src="images/service/advetising_icon.png" alt="Advetising" class="mCS_img_loaded">
+                                 <img src="images/service/advetising_icon.png" alt="Graphic Designer Amine Smahi" class="mCS_img_loaded">
                               </div>
                               <h4> مصمم جرافيك </h4>
                               <p> من بين الأمور الأساسية لجلب زوار أو العملاء هو أن يكون تصميم صفحتك أو البانر أو اللوغو لشركتك مميزا بحيت يدل على إيمكانية شركتك و يطبع الراحة و يرفع تقتهم بك </p>
@@ -386,14 +386,16 @@
                                  </div>
                                  <div class="mask"></div>
                                  <div class="post-date">
-                                    <span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>-->
+                                     <?php
+                                     
+                                  echo ArabicDate2();
+                                        ?>
+                    
+                                    <!--<span class="year">2016</span>-->
                                  </div>
                               </a>
                            </div>
                            <div class="post-info">
-                              <ul class="category">
-                                 <li><a href="#">Travel</a></li>
-                              </ul>
                               <a href="<?php the_permalink(); ?>">
                                  <h4 class="blog-item-title"><?php the_title(); ?></h4>
                               </a>

@@ -1,21 +1,44 @@
 <?php 
 
-function single_post_arabic_date($postdate_d,$postdate_d2,$postdate_m,$postdate_y) {
-    $months = array("01" => "يناير", "02" => "فبراير", "03" => "مارس", "04" => "أبريل", "05" => "مايو", "06" => "يونيو", "07" => "يوليو", "08" => "أغسطس", "09" => "سبتمبر", "10" => "أكتوبر", "11" => "نوفمبر", "12" => "ديسمبر");
-
-
-       $ar_month =months[$postdate_m]; 
-
+function ArabicDate() {
+    $months = array("Jan" => "يناير", "Feb" => "فبراير", "Mar" => "مارس", "Apr" => "أبريل", "May" => "مايو", "Jun" => "يونيو", "Jul" => "يوليو", "Aug" => "أغسطس", "Sep" => "سبتمبر", "Oct" => "أكتوبر", "Nov" => "نوفمبر", "Dec" => "ديسمبر");
+    $your_date = date('y-m-d'); // The Current Date
+    $en_month = date("M", strtotime($your_date));
+    foreach ($months as $en => $ar) {
+        if ($en == $en_month) { $ar_month = $ar; }
+    }
 
     $find = array ("Sat", "Sun", "Mon", "Tue", "Wed" , "Thu", "Fri");
     $replace = array ("السبت", "الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة");
-    $ar_day_format = $postdate_d2;
+    $ar_day_format = date('D'); // The Current Day
     $ar_day = str_replace($find, $replace, $ar_day_format);
 
+    header('Content-Type: text/html; charset=utf-8');
     $standard = array("0","1","2","3","4","5","6","7","8","9");
     $eastern_arabic_symbols = array("٠","١","٢","٣","٤","٥","٦","٧","٨","٩");
-    $post_date = $ar_day.' '.$postdate_d.' '.$ar_month.' '.$postdate_y;
-    $arabic_date = str_replace($standard , $eastern_arabic_symbols , $post_date);
+    $current_date = $ar_day.' '.date('d').'  '.$ar_month.'  '.date('Y');
+    $arabic_date = str_replace($standard , $eastern_arabic_symbols , $current_date);
+
+    return $arabic_date;
+}
+function ArabicDate2() {
+    $months = array("Jan" => "يناير", "Feb" => "فبراير", "Mar" => "مارس", "Apr" => "أبريل", "May" => "مايو", "Jun" => "يونيو", "Jul" => "يوليو", "Aug" => "أغسطس", "Sep" => "سبتمبر", "Oct" => "أكتوبر", "Nov" => "نوفمبر", "Dec" => "ديسمبر");
+    $your_date = date('y-m-d'); // The Current Date
+    $en_month = date("M", strtotime($your_date));
+    foreach ($months as $en => $ar) {
+        if ($en == $en_month) { $ar_month = $ar; }
+    }
+
+    $find = array ("Sat", "Sun", "Mon", "Tue", "Wed" , "Thu", "Fri");
+    $replace = array ("السبت", "الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة");
+    $ar_day_format = date('D'); // The Current Day
+    $ar_day = str_replace($find, $replace, $ar_day_format);
+
+    header('Content-Type: text/html; charset=utf-8');
+    $standard = array("0","1","2","3","4","5","6","7","8","9");
+    $eastern_arabic_symbols = array("٠","١","٢","٣","٤","٥","٦","٧","٨","٩");
+    $current_date = '<span class="day"> '.date('d').' </span><span class="month"> '.$ar_month.'  </span>';
+    $arabic_date = str_replace($standard , $eastern_arabic_symbols , $current_date);
 
     return $arabic_date;
 }
